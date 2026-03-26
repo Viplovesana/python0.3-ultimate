@@ -15,3 +15,10 @@ print(name[0:4])
 print(name[-4:-1]) #negative indices
 
 print(name[3:6])
+print(name[:7])
+print(name[0:])
+
+
+# [1:6:2]
+
+print(name[1:6:2])

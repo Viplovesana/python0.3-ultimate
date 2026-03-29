@@ -12,3 +12,6 @@ print(s)
 
 s.pop()
 print(s)
+
+s.clear()
+print(s)

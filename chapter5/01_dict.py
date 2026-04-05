@@ -4,6 +4,7 @@ profile = {
     "department":"email marketing",
     "salary":20000
 }
+
 # print(profile.items())
 # print(profile.keys())
 # print(profile.values())

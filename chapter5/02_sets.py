@@ -44,3 +44,39 @@ print(s2.pop())
 # create Empty set.......
 EmSet = set()
 print(type(EmSet))
+
+# pratice set............................
+
+# write a program to creaye a dictionary of hindi words with values as the in english translation
+
+words = {
+    "madad":"help",
+    "kutta":"dog",
+    "billi":"cat",
+    "kitaab":"book"
+}
+# print(words["madad"])
+'''change = input("Enter the name which you translate :-")
+print(words[change])'''
+
+# WAP to input eigt numbers from the user and display all the unique numbers(once)
+sets = set()
+# print(type(sets))
+num1 = int(input("Enter the first number :-"))
+sets.add(num1)
+num2 = int(input("Enter the second number :-"))
+sets.add(num2)
+num3 = int(input("Enter the third number :-"))
+sets.add(num3)
+num4 = int(input("Enter the four number :-"))
+sets.add(num4)
+num5 = int(input("Enter the fivth number :-"))
+sets.add(num5)
+num6 = int(input("Enter the sixth number :-"))
+sets.add(num6)
+num7 = int(input("Enter the seven number :-"))
+sets.add(num7)
+num8 = int(input("Enter the eight number :-"))
+sets.add(num8)
+
+# print(sets)

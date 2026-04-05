@@ -46,10 +46,10 @@ sanskrit = int(input("Enter the marks3 :-"))
 
 total_percentage =(100)*(hindi + english + sanskrit)/300
 
-if(total_percentage >= 40):
-    print("Bachha you are pass")
+if(total_percentage >= 40 and hindi>=33 and english>=33 and sanskrit>=33):
+    print("Bachha you are pass",total_percentage)
 else:
-    print("aree yaar fail ho gaya saale🫨")    
+    print("aree yaar fail ho gaya saale🫨",total_percentage)    
 
 
 

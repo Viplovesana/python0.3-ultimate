@@ -88,7 +88,7 @@ else:
 
 # WAP to cheak the grade 
 
-marks = int(input("Enter the marks here :-"))
+'''marks = int(input("Enter the marks here :-"))
 
 if(marks>=90 and marks<=100 ):
     grade = "ex"
@@ -102,7 +102,18 @@ elif(marks>=50 and marks<=60 ):
    grade = "D" 
 elif(marks<=50):
    grade = "your are Fail"
-print("your grade is :-",grade)
+print("your grade is :-",grade)'''
+
+#WAp to find out wether a given post is taking about viplove
+
+
+post = input("Enter the post :-")
+
+if("viplove" in post.lower()):
+    print("this post is talking about viplove")
+
+else:
+    print("given post is not talking about viplove")
 
 
 

@@ -91,7 +91,7 @@ print(sets)
 '''
 #create an emoty dictionary.allow 4 frnfs to enter their favorite langauge as values and use key as thier names 
 
-d = {}
+'''d = {}
 
 name = input("Enter friends name :-")
 lang = input("Enter the lang name")
@@ -108,6 +108,9 @@ d.update({name:lang})
 name = input("Enter friends name :-")
 lang = input("Enter the lang name")
 d.update({name:lang})
+print(d)'''
 
+# WAP to change the values inside a list which is contained in set S
 
-print(d)
+s ={8,3,13,"viplove",[1,3]}
+

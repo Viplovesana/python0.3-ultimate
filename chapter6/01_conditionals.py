@@ -76,7 +76,7 @@ else:
     print("username has more then 10 char")    '''
 
 #WAP which finds out wether a given name is present on a list or not
-
+'''
 myList = ["viplove","herry bahi","rohan","kalpit"]
 
 userName = input("Enter the name :-")
@@ -84,4 +84,25 @@ userName = input("Enter the name :-")
 if(userName in myList):
     print("yes your name is given in the list")
 else:
-    print("your name is not given in the list")    
+    print("your name is not given in the list")  ''' 
+
+# WAP to cheak the grade 
+
+marks = int(input("Enter the marks here :-"))
+
+if(marks>=90 and marks<=100 ):
+    grade = "ex"
+elif(marks>=80 and marks<=90 ):
+   grade = "A"
+elif(marks>=70 and marks<=80 ):
+   grade = "B"
+elif(marks>=60 and marks<=70 ):
+   grade = "C"
+elif(marks>=50 and marks<=60 ):
+   grade = "D" 
+elif(marks<=50):
+   grade = "your are Fail"
+print("your grade is :-",grade)
+
+
+

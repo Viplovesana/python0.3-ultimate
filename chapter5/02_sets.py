@@ -42,8 +42,8 @@ print(s1)'''
 print(s2.pop())
 
 # create Empty set.......
-EmSet = set()
-print(type(EmSet))
+# EmSet = set()
+# print(type(EmSet))
 
 # pratice set............................
 
@@ -60,9 +60,9 @@ words = {
 print(words[change])'''
 
 # WAP to input eigt numbers from the user and display all the unique numbers(once)
-sets = set()
+# sets = set()
 # print(type(sets))
-num1 = int(input("Enter the first number :-"))
+'''num1 = int(input("Enter the first number :-"))
 sets.add(num1)
 num2 = int(input("Enter the second number :-"))
 sets.add(num2)
@@ -77,6 +77,37 @@ sets.add(num6)
 num7 = int(input("Enter the seven number :-"))
 sets.add(num7)
 num8 = int(input("Enter the eight number :-"))
-sets.add(num8)
+sets.add(num8)'''
 
 # print(sets)
+
+
+# can we have set with 18(int) and '18' (str) as avlaue in it?
+ 
+'''sets = set()
+sets.add(18)
+sets.add("18")
+print(sets)
+'''
+#create an emoty dictionary.allow 4 frnfs to enter their favorite langauge as values and use key as thier names 
+
+d = {}
+
+name = input("Enter friends name :-")
+lang = input("Enter the lang name")
+d.update({name:lang})
+
+name = input("Enter friends name :-")
+lang = input("Enter the lang name")
+d.update({name:lang})
+
+name = input("Enter friends name :-")
+lang = input("Enter the lang name")
+d.update({name:lang})
+
+name = input("Enter friends name :-")
+lang = input("Enter the lang name")
+d.update({name:lang})
+
+
+print(d)

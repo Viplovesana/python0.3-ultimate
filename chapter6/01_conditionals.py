@@ -38,7 +38,7 @@ else:
 
 # WAp to find the marks and pass or failed
 
-hindi = int(input("Enter the marks1 :-"))
+'''hindi = int(input("Enter the marks1 :-"))
 english = int(input("Enter the marks2 :-"))
 sanskrit = int(input("Enter the marks3 :-"))
 
@@ -50,7 +50,20 @@ if(total_percentage >= 40 and hindi>=33 and english>=33 and sanskrit>=33):
     print("Bachha you are pass",total_percentage)
 else:
     print("aree yaar fail ho gaya saale🫨",total_percentage)    
+'''
 
+# probel 3: WAP to find spam 
+p1 = "Make a lot of money"
+p2 = "buy now"
+p3 = "subscribe now"
+p4 = "click this"
+
+message = input("Enter your comment")
+
+if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
+    print("This mssg is spam massage")
+else:
+    print("this message is not spam message")    
 
 
                   

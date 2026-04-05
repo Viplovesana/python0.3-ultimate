@@ -52,8 +52,8 @@ else:
     print("aree yaar fail ho gaya saale🫨",total_percentage)    
 '''
 
-# probel 3: WAP to find spam 
-p1 = "Make a lot of money"
+# probel 3: WAP to find spam messages
+'''p1 = "Make a lot of money"
 p2 = "buy now"
 p3 = "subscribe now"
 p4 = "click this"
@@ -65,6 +65,23 @@ if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
 else:
     print("this message is not spam message")    
 
+'''
+#WAP which finds out whether a given username contains less then 10 char or not                 
+'''
+user = input("Enter the name :-")
 
-                  
+if(len(user)<=10):
+    print("username is less 10 character")
+else:
+    print("username has more then 10 char")    '''
 
+#WAP which finds out wether a given name is present on a list or not
+
+myList = ["viplove","herry bahi","rohan","kalpit"]
+
+userName = input("Enter the name :-")
+
+if(userName in myList):
+    print("yes your name is given in the list")
+else:
+    print("your name is not given in the list")    

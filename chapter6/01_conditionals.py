@@ -19,7 +19,7 @@ else:
 # else:
 #     print("No is odd")
 
-a1 = int(input("Enter your number :-"))
+'''a1 = int(input("Enter your number :-"))
 a2= int(input("Enter your number :-"))
 a3 = int(input("Enter your number :-"))
 a4 = int(input("Enter your number :-"))
@@ -33,5 +33,25 @@ elif(a3>a1 and a3>a2 and a3>a4):
 elif(a4>a1 and a4>a2 and a4>a3):
     print(f"a4 is {a4} is greater")
 else:
-    print("Enter a number :-")    
+    print("Enter a number :-")  '''  
+
+
+# WAp to find the marks and pass or failed
+
+hindi = int(input("Enter the marks1 :-"))
+english = int(input("Enter the marks2 :-"))
+sanskrit = int(input("Enter the marks3 :-"))
+
+# cheack for total %
+
+total_percentage =(100)*(hindi + english + sanskrit)/300
+
+if(total_percentage >= 40):
+    print("Bachha you are pass")
+else:
+    print("aree yaar fail ho gaya saale🫨")    
+
+
+
+                  
 

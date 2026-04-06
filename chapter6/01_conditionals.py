@@ -135,7 +135,7 @@ print("The squareroot of given no is ",squareroot)'''
 
 # Write a program to find largest no among the three inputs numbers. 
 
-num1 = int(input("Enter the num :-"))
+'''num1 = int(input("Enter the num :-"))
 num2 = int(input("Enter the num :-"))
 num3 = int(input("Enter the num :-"))
 
@@ -147,5 +147,26 @@ if(num3>num2 and num3>num1):
     print("num3 is greater")
 else:
     print("Enter a number")    
+'''
 
+# .Write a program to swap two variables using using Addition and Subtraction.
+
+'''a = 100
+b = 200
+
+a = a+b  #300
+b = a-b  #100
+a = a-b  #200
+print(a)'''
+
+
+#....Write a program to swap two variables using third variable. 
+
+a = 100
+b = 200
+swap = a
+a = b
+b = swap
+print("the swap value of a is ",a)
+print("the swap value of b is ",b)
 

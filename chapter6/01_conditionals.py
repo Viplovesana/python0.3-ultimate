@@ -117,13 +117,35 @@ else:
 
 #write a prgram to find the year is leap year or not
 
-year = int(input("Enter the year:-"))
+'''year = int(input("Enter the year:-"))
 
 if(year%400 == 0) or (year%4 == 0 and year%100 != 0):
 
     print("year is a leap year")
 else:
-    print("this year is not a leap")    
+    print("this year is not a leap")   ''' 
 
+#Write a program to find squre root of given no/we can use two method to find square root of num is 0.5 and (1/2)
+'''
+n = int(input("Enter the number:-"))
+
+squareroot = n ** (1/2)
+
+print("The squareroot of given no is ",squareroot)'''
+
+# Write a program to find largest no among the three inputs numbers. 
+
+num1 = int(input("Enter the num :-"))
+num2 = int(input("Enter the num :-"))
+num3 = int(input("Enter the num :-"))
+
+if(num1>num2 and num1>num3):
+    print("num1 is greater")
+if(num2>num1 and num2>num3):
+    print("num2 is greater")
+if(num3>num2 and num3>num1):
+    print("num3 is greater")
+else:
+    print("Enter a number")    
 
 

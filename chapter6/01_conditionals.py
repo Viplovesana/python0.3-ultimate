@@ -106,14 +106,24 @@ print("your grade is :-",grade)'''
 
 #WAp to find out wether a given post is taking about viplove
 
-
+'''
 post = input("Enter the post :-")
 
 if("viplove" in post.lower()):
     print("this post is talking about viplove")
 
 else:
-    print("given post is not talking about viplove")
+    print("given post is not talking about viplove")'''
+
+#write a prgram to find the year is leap year or not
+
+year = int(input("Enter the year:-"))
+
+if(year%400 == 0) or (year%4 == 0 and year%100 != 0):
+
+    print("year is a leap year")
+else:
+    print("this year is not a leap")    
 
 
 

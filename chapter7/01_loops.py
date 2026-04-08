@@ -113,5 +113,22 @@ for i in range(1,n+1):
 print(sum)'''
 
 
+# WAP to calculate the factorial of a given no using for loop
+
+n=int(input("Enter the num:-"))
+#for loop................
+# fact = 1
+# for i in range(1,n+1): 
+#     fact = fact*i
+# print(f"the factorial of {n} is {fact}")    
+#while loop.............
+fact = 1
+i = 1
+while(i<=n):
+    fact = fact*i
+    i = i+1
+print(f"the fact of {i} is {fact}")
+
+
 
 

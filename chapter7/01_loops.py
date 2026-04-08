@@ -73,12 +73,28 @@ while(i < 11):
 
 #WAP to find whether a given no is prime or not.
 
-n = int(input("Enter the number:-"))
+# n = int(input("Enter the number:-"))
 
-for i in range(2,n):
-    if(n%i==0):
-        print("the no is not prime")
-        break
+# for i in range(2,n):
+#     if(n%i==0):
+#         print("the no is not prime")
+#         break
+#     else:
+#         print("the no is prime")
+
+# SAME QUE WITH WHILE LOOP.........
+n = int(input("Enter the number:-"))
+if n <= 1:
+    print("not a prime no")
+else:
+    i = 2
+    while(i<n):
+        if(n%i == 0):
+            print("not a prime")
+            break
+        i=i+1
     else:
-        print("the no is prime")
+        print("prime no")
+
+
 

@@ -49,8 +49,24 @@ while(i<11):
 #.....PRACTISE SET QUESTIONS............................*****
 
 #wap to print multiplication table of a given number using for loop
-num = int(input("Enter the number:- "))
+'''num = int(input("Enter the number:- "))
 for i in range(1,11):
     # print(num,"*",i,"=",num * i )
-    print(f"{num}*{i}={num*i}")
+    print(f"{num}*{i}={num*i}")'''
 
+ 
+# WAp to greet all the person names stored in a list "l" and which starts with s 
+'''
+l = ["sumit","rohan","sushant","viplove","sajan"]
+
+for item in l:
+    if(item.startswith("s")):
+        print("aapka deen subh mangal ho",item)  '''
+
+##wap to print multiplication table of a given number using while loop
+
+n = int(input("Enter the number for table :-"))
+i = 1
+while(i < 11):
+    print(f"{n} * {i} = {n*i}")
+    i=i+1

@@ -65,8 +65,20 @@ for item in l:
 
 ##wap to print multiplication table of a given number using while loop
 
-n = int(input("Enter the number for table :-"))
+'''n = int(input("Enter the number for table :-"))
 i = 1
 while(i < 11):
     print(f"{n} * {i} = {n*i}")
-    i=i+1
+    i=i+1'''
+
+#WAP to find whether a given no is prime or not.
+
+n = int(input("Enter the number:-"))
+
+for i in range(2,n):
+    if(n%i==0):
+        print("the no is not prime")
+        break
+    else:
+        print("the no is prime")
+

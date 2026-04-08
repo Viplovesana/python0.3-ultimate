@@ -25,9 +25,9 @@ for item in l:
 else:
     print("loop is over")'''
 
-# break and continue statement............
+# break and continue and pass statement............
 
-for item in range(0,100):
+'''for item in range(0,100):
     if(item == 23):
         break# its exit the loop
     print(item)
@@ -37,4 +37,20 @@ for item in range(0,100):
         continue# skip the iteration
     print(item)
 
+for i in range(54):
+    pass #pass is a null statement in python it instruct to do nothing
+
+i = 0 
+while(i<11):
+    print(i)
+    i=i+1
+'''
+
+#.....PRACTISE SET QUESTIONS............................*****
+
+#wap to print multiplication table of a given number using for loop
+num = int(input("Enter the number:- "))
+for i in range(1,11):
+    # print(num,"*",i,"=",num * i )
+    print(f"{num}*{i}={num*i}")
 

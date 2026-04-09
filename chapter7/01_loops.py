@@ -174,6 +174,48 @@ while n!=0:
     n = int(input("Enter the no:-"))
     print("loop ended")'''
 
+# Example 8: Write a program to add 5 in each elements in given list.  
+'''l =  [10,20,30,40,50]
+for i in range(len(l)):
+    l[i]=l[i]+5
+print(l)'''
+
+# l =  [10,20,30,40,50]
+
+# i = 0 
+# while(i<len(l)):
+#     l[i] = l[i] + 5
+#     i=i+1
+# print(l)
+
+# Example 9: Write a program to add 5 in each elements in given tuple.  
+'''t = (10,20,30,40,50)
+newTuple = ()
+for i in t:
+    newTuple = newTuple + (i + 5,)
+print(newTuple)'''
+
+# Example 10: Write a program to create a list from given string.  
+
+'''str = "viplove","mukesh","saurabh"
+l = list(str)
+print(l)'''
+
+# Example 6: Python program to display numbers from a list using a for loop. 
+
+
+l = [2,4,5,"viplove","rohan",34,"sakshi",89]
+
+for i in l:
+    if(type(i) ==  str):
+       print(i)
+    
+
+
+
+
+
+
 
 
     

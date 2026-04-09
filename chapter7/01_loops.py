@@ -203,13 +203,36 @@ print(l)'''
 
 # Example 6: Python program to display numbers from a list using a for loop. 
 
-
+'''
 l = [2,4,5,"viplove","rohan",34,"sakshi",89]
 
 for i in l:
     if(type(i) ==  str):
        print(i)
-    
+    '''
+
+# while
+'''l = [2,4,5,"viplove","rohan",34,"sakshi",89]
+
+i = 0
+while(i < len(l)):
+    if(type(l[i])==int):
+      print(l[i])
+    i=i+1'''
+
+# Example 8: WAp whether  the word is palindrome or not 
+
+word = input("Enter the word:-")
+rev = "" 
+
+for char in word:
+    rev = char + rev #m
+if word == rev:
+    print("the word is palindrom")
+else:
+    print("the word is not a palindrom")    
+
+
 
 
 

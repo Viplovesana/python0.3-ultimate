@@ -115,20 +115,43 @@ print(sum)'''
 
 # WAP to calculate the factorial of a given no using for loop
 
-n=int(input("Enter the num:-"))
+# n=int(input("Enter the num:-"))
 #for loop................
 # fact = 1
 # for i in range(1,n+1): 
 #     fact = fact*i
 # print(f"the factorial of {n} is {fact}")    
 #while loop.............
-fact = 1
+# fact = 1
+# i = 1
+# while(i<=n):
+#     fact = fact*i
+#     i = i+1
+# print(f"the fact of {i} is {fact}")
+
+# n=int(input("Enter the num:-"))
 i = 1
+fact = 1
+# for i in range(1,n+1):
+#     fact = fact*i
+# print(fact)
+# while(i<=n):
+#     fact=fact*i
+#     print(fact)
+#     i=i+1
+
+
+# Example 6: Write a program to print your names ten times.       
+
+'''a = "viplove"
+for i in range(1,10+1):
+    print(i,a)'''
+
+# Write a program to display n natural numbers. 
+'''n = int(input("Enter the name wher you can go : ="))
+i = 0
 while(i<=n):
-    fact = fact*i
-    i = i+1
-print(f"the fact of {i} is {fact}")
-
-
+    print(i)
+    i=i+1'''
 
 

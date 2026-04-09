@@ -154,4 +154,31 @@ while(i<=n):
     print(i)
     i=i+1'''
 
+# Write a program to calculate the sum of numbers. 
+''''n = int(input("Enter the name wher you can go : ="))
+
+sum = 1
+i = 1 
+while(i<=n):
+    sum = sum * i
+    print(sum)
+    i=i+1
+'''
+
+# Print numbers until user enters 0
+'''n = int(input("Enter the no:-"))
+i=1
+while n!=0:
+    print("you entered ",n)
+
+    n = int(input("Enter the no:-"))
+    print("loop ended")'''
+
+
+
+    
+
+
+
+
 

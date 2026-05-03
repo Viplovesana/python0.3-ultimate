@@ -283,15 +283,15 @@ else:
 
 # Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..) 
 
-num  = int(input("Enter the term for :- "))
+# num  = int(input("Enter the term for :- "))
 
-a = 0 
-b = 1
-for i in range(num):
-    print( a, end=" ")
-    c = a + b # 0 + 1 = 1   , 1 + 1 = 2  , 1 + 2 = 3 , 
-    a = b # 1     , 1 , 1
-    b = c # 1     , 2 , 3
+# a = 0 
+# b = 1
+# for i in range(num):
+#     print( a, end=" ")
+#     c = a + b # 0 + 1 = 1   , 1 + 1 = 2  , 1 + 2 = 3 , 
+#     a = b # 1     , 1 , 1
+#     b = c # 1     , 2 , 3
 
 '''num  = int(input("Enter the term for :- "))
 
@@ -306,6 +306,27 @@ while i < num:
     snd_no = thrd_no
     i += 1
 '''
+
+
+# Example 17: Python program to check the validity of password input by users. 
+'''psswd = "Mrcool@123"
+password = input("Enter the password :-")
+if password == psswd:
+    print("password is correct")
+else:
+    print("password is invalid")    
+'''
+
+psswd = "Mrcool@123"
+password = input("Enter the password :-")
+
+for i in range(len(password)):
+    if password[1]  == psswd[i]:
+        print("pswd is correct")
+        break
+    else:
+        print("pswd is incorrect")  
+        break  
 
 
 

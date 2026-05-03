@@ -1,4 +1,4 @@
-# slicing..............
+'''# slicing..............
 
 name = "viplove"
 nameshort = name[0:3]
@@ -21,4 +21,17 @@ print(name[0:])
 
 # [1:6:2]
 
-print(name[1:6:2])
+print(name[1:6:2])'''
+
+id = "myhero"
+# print(id[::-1])
+
+rev = ""
+for char in id:
+    rev = char + rev
+print(rev)
+
+
+
+
+

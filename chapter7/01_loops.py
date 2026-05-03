@@ -222,7 +222,7 @@ while(i < len(l)):
 
 # Example 8: WAp whether  the word is palindrome or not 
 
-word = input("Enter the word:-")
+'''word = input("Enter the word:-")
 rev = "" 
 
 for char in word:
@@ -230,7 +230,37 @@ for char in word:
 if word == rev:
     print("the word is palindrom")
 else:
-    print("the word is not a palindrom")    
+    print("the word is not a palindrom") '''   
+
+# word = input("Enter the word:-")
+# rev = "" 
+# char = 0
+# while(char< len(word)):
+#     rev = word[char] + rev
+#     char = char +1
+# if word == rev:
+#     print(f"{word} is a palindrom")
+# else:
+#     print(f"{word} is not a palindrom")   
+
+
+# Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) 
+
+num = int(input("Enter the number :-"))
+original = num
+digits = len(str(num))
+tmp = num
+sum = 0
+for i in range(digits):
+    digit = tmp % 10  #3
+    sum += digit ** digits #27
+    tmp = tmp // 10 #15
+
+if sum == original:
+    print("this is a armstrong number")
+
+else:
+    print("not an armstrong number")    
 
 
 

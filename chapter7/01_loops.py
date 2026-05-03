@@ -246,7 +246,7 @@ else:
 
 # Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) 
 
-num = int(input("Enter the number :-"))
+'''num = int(input("Enter the number :-"))
 original = num
 digits = len(str(num))
 tmp = num
@@ -260,7 +260,53 @@ if sum == original:
     print("this is a armstrong number")
 
 else:
+    print("not an armstrong number")    '''
+
+
+'''num = int(input("Enter the number :-"))
+original = num
+digits = len(str(num))
+tmp = num
+sum = 0
+
+while tmp > 0:
+    last_digit = tmp % 10
+    sum += last_digit ** digits
+    tmp //= 10
+if sum == original:
+    print("this is a armstrong number")
+
+else:
     print("not an armstrong number")    
+'''
+
+
+# Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..) 
+
+num  = int(input("Enter the term for :- "))
+
+a = 0 
+b = 1
+for i in range(num):
+    print( a, end=" ")
+    c = a + b # 0 + 1 = 1   , 1 + 1 = 2  , 1 + 2 = 3 , 
+    a = b # 1     , 1 , 1
+    b = c # 1     , 2 , 3
+
+'''num  = int(input("Enter the term for :- "))
+
+first_no = 0
+snd_no = 1
+thrd_no = 0
+i = 0
+while i < num:
+    print(first_no ,end=" ")    
+    thrd_no = first_no + snd_no
+    first_no = snd_no
+    snd_no = thrd_no
+    i += 1
+'''
+
 
 
 
